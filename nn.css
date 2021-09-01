@@ -1,0 +1,325 @@
+*{padding:0;margin:0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+section{padding:50px;overflow: hidden;}
+body{background-color:#eeeff1;font-family:'Poppins', sans-serif;}
+ul.main-menu-ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+ul.main-menu-ul li {
+    float: right;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+ul.main-menu-ul li a {
+    /* padding:10px 15px; */
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s;
+    color: black;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.active a{color: white !important;}
+.active{background:black;color: white!important;padding:20px;border-radius: 4px;}
+ul.main-menu-ul li a:hover{color:#716a6a;}
+
+.logo {
+    float: left;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 0%;
+}
+
+
+
+.logo h2 {
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    place-items: center;
+    /* display: grid; */
+    margin-top: 3px;
+}
+
+
+header#mainhead {
+    margin: 10px;
+    overflow: hidden;
+}
+.logo img {
+    float: left;
+    width: 31px;
+    height: 26px;
+    margin-right: 13px;
+}
+.container {
+    width: 1100px;
+    margin: auto;
+}.personimg {
+    width: 400px;
+    float: left;
+}
+
+.personimg img {
+    max-width: 100%;
+    float: left !important;
+    overflow: hidden;
+}
+.personcontent {
+    float: right;
+    /* margin-left: 60px; */
+    width: 664px;
+    margin-top: 100px;
+}
+
+.personcontent h1 {font-family:'Montserrat',sans-serif;font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+
+.personcontent span {color: #545353;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;;
+    line-height: 42px;
+    /* text-align: justify; */
+    font-weight: 300;
+}
+.about-my-carrer {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.about-my-carrer h2 {
+    font-size: 40px;font-family:'Poppins', sans-serif;font-weight:600;
+}
+.about-my-carrer p {
+    margin-top: 25px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #333;
+    font-family: 'poppins',sans-serif;
+}
+.all-the-skill {
+    margin-top: 46px;
+
+    float: right;
+    width: 500px;
+    overflow: hidden;
+}
+
+.all-the-skill a {
+    text-decoration: none;
+    padding: 9px 23px;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 51px;
+    border-radius: 28px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+    background: #ecebea;
+    border: 1px solid #ced1df;
+}
+
+.onwork h1 {
+        font-size: 45px;
+        font-weight: lighter;
+    }
+
+
+.singlemenimg2 {
+    float: left;
+    overflow: hidden;
+    width: 344px;
+}
+.singlemenimg2 {
+    float: left;
+    overflow: hidden;
+    margin-right: 113px;
+}
+.singlemenimg2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.onwork {
+    margin-bottom: 40px;
+}
+
+.singlemenimg2 h2 {
+    margin: 12px 1px;
+    font-weight: lighter;
+}
+
+.singlemenimg2 p {
+    font-weight: lighter;
+    color: #333;
+}
+.singlemenr p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #333;
+    line-height: 38px;
+}
+.containerwrapper {
+    border: 1px solid black;
+    padding: 80px 60px;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.touch-this h1 {
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.touch-this {
+    width: 409px;
+    float: left;
+    margin-right: 2px;
+}
+
+.touchthisright {
+    float: right;
+    overflow: hidden;
+}
+
+.inputname p {
+    color: gray;
+    font-size: 16px;
+}
+
+.inputname2 p {
+    color: gray;
+    font-size: 16px;
+}
+
+.inputname input, .inputname2 input {border-radius: 4px;
+    width: 250px;
+    padding: 20px 8px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.inputname2  {float:left;width: 300px;}
+.inputname {float:right;}
+.inputnamemassage {
+    width: 566px;
+    overflow: hidden;
+}
+
+.inputnamemassage p {
+    color: gray;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+
+
+.inputnamemassage textarea {
+    padding:5px 10px;
+    text-transform: capitalize;
+    width: 531px;
+    background: #fbfbfb;
+    height: 150px;
+    outline: none;
+    font-size: 18px;
+}
+input#submitbtn {
+    margin-top: 20px;
+    padding: 14px 25px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+.logo2 {
+    width: 40px;float: left;
+    overflow: hidden;
+}
+
+
+
+.logo2 img {
+    max-width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.middleul {
+    float: right;
+    overflow: hidden;
+}
+
+ul.middlelast {
+    list-style-type: none;
+    float: right;
+    overflow: hidden;
+}
+
+ul.middlelast li {
+    float: left;
+    margin-right: 30px;
+}
+
+ul.middlelast li a {
+    text-decoration: none;
+    color: gray;
+    position: relative;
+    transition: .6s;
+}
+
+ul.middlelast li a:before {bottom: -1px;
+    content: '';
+    height: 2px;
+    width: 0%;  transition: .6s;
+    background: gray;
+    position: absolute;
+}
+.middlelast li:hover a:before{width:100%;}
+.main-menu-ul li a:before{bottom: -1px;
+    content: '';
+    height: 2px;
+    width: 0%;  transition: .6s;
+    background: gray;
+    position: absolute;}
+.main-menu-ul li:hover a:before{width:100%}
+.middleorder {
+    overflow: hidden;
+}
+
+span.copywrite {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    text-transform: lowercase;
+    color: gray;
+}
+.copy {
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
